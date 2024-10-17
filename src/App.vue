@@ -22,8 +22,8 @@ export default {
   data() {  
     return {  
       name: '🐾皪澄_Tiking🐾',  
-      avatarImage: 'https://foruda.gitee.com/avatar/1719082563348937195/11531684_tiking-010_1719082563.png', // 替换为你的头像路径或URL  
-      backgroundImage: 'https://www.loliapi.com/acg/', // 稍后通过API获取  
+      avatarImage: 'https://foruda.gitee.com/avatar/1719082563348937195/11531684_tiking-010_1719082563.png', // 头像路径或URL  
+      backgroundImage: 'https://www.loliapi.com/acg/', // 背景API  
       bio: '阿巴阿巴……正在施工……',  
       website: 'https://space.bilibili.com/432065554',  
       email: 'Tiking@bclcraft.com',  
@@ -36,9 +36,9 @@ export default {
   methods: {  
     async fetchBackgroundImage() {  
       try {  
-        const response = await fetch('https://api.example.com/get-background-image'); // 替换为实际的API URL  
+        const response = await fetch('https://www.loliapi.com/acg/'); // API URL  
         const data = await response.json();  
-        this.backgroundImage = data.image_url; // 假设API返回一个包含image_url的对象  
+        this.backgroundImage = data.image_url; // API返回一个包含image_url的对象  
       } catch (error) {  
         console.error('Error fetching background image:', error);  
       }  
