@@ -9,8 +9,8 @@
         <h1>{{ name }}</h1>  
         <p>{{ bio }}</p>  
         <div class="contact-info">  
-          <p><strong>哔哩哔哩:</strong> <a :href="website" target="_blank">{{ website }}</a></p>  
-          <p><strong>邮箱:</strong> {{ email }}</p>   
+          <p><strong>哔哩哔哩:</strong> <a :href="website" target="_blank">{{ biliname }}</a></p>  
+          <p><strong>邮箱:</strong><a :href="">{{ email }}</a></p>   
         </div>  
       </div>  
     </div>  
@@ -22,12 +22,13 @@ export default {
   data() {  
     return {  
       name: '🐾皪澄_Tiking🐾',  
+      biliname:'皪澄_Tiking',
       avatarImage: 'https://foruda.gitee.com/avatar/1729174790527229522/11531684_tiking-010_1729174790.png', // 头像路径或URL  
       backgroundImage: 'https://www.loliapi.com/acg/', // 背景API  
       bio: '阿巴阿巴……正在施工……',  
       website: 'https://space.bilibili.com/432065554',  
-      email: 'Tiking@bclcraft.com',  
-      phone: '123-456-7890'  
+      email: 'tiking@bclcraft.com',  
+      phone: '11451419198'  
     };  
   },  
   created() {  
