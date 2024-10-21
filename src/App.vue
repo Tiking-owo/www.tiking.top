@@ -65,8 +65,8 @@ export default {
   height: 100%;  
   background-size: cover;  
   background-position: center;  
-  filter: blur(0px); /* 模糊效果 */  
-  opacity: 0.7; /* 半透明 */  
+  filter: blur(1px); /* 模糊效果 */  
+  opacity: 0.5; /* 半透明 */  
 }  
   
 .overlay {  
