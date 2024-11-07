@@ -23,7 +23,7 @@ export default {
     return {  
       name: '🐾皪澄_Tiking🐾',  
       biliname: '皪澄_Tiking',
-      avatarImage: 'https://foruda.gitee.com/avatar/1729174790527229522/11531684_tiking-010_1729174790.png', // 头像路径或URL  
+      avatarImage: 'https://foruda.gitee.com/avatar/1730940235351329146/11531684_tiking-010_1730940235.png', // 头像路径或URL  
       backgroundImage: 'https://www.loliapi.com/acg/', // 背景API  
       bio: '阿巴阿巴……正在施工……',  
       website: 'https://space.bilibili.com/432065554',  
