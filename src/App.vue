@@ -16,6 +16,14 @@
           <p><a :href="skyfurry" target="_blank">风羽阁 | SkyFurry</a></p>
           <p><a :href="fsg" target="_blank">枫兽阁官方活动网</a></p>
         </div>  
+        <footer id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li>© 2025 皪澄_Tiking</li>
+								<li><a style="text-decoration: none;" href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2025165329号-1</a></li>
+							</ul>
+						</div>
+					</footer>
       </div>  
     </div>  
   </div>  
